@@ -1,5 +1,7 @@
 :: Lista de Rebeldes ::
 
-:: 1 - Rebelde(nome=fsd, idade=11, raca=HUMANO)
-:: 2 - Rebelde(nome=66, idade=33, raca=RAKATA)
-:: 3 - Rebelde(nome=kjjkhklg, idade=66, raca=GREE)
+:: 1 - Rebelde(nome=, idade=41, racas=HUMANO)
+:: 2 - Rebelde(nome=kkk, idade=44, racas=RAKATA)
+:: 3 - Rebelde(nome=, idade=22, racas=GREE)
+:: 4 - Rebelde(nome=, idade=4, racas=GREE)
+:: 5 - Rebelde(nome=Teste, idade=11, racas=HUMANO)

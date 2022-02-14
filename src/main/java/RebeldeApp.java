@@ -1,6 +1,6 @@
-import com.rnv.letscode.InteligenciaCentral;
+import com.rnv.letscode.ic.InteligenciaCentral;
+import com.rnv.letscode.reports.Relatorios;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class RebeldeApp {
@@ -12,6 +12,7 @@ public class RebeldeApp {
         System.out.println("::         Escolha uma opção        ::");
         System.out.println("::                                  ::");
         System.out.println("::     [J] Juntar-se a causa        ::");
+        System.out.println("::     [L] Listar Rebeldes          ::");
         System.out.println("::     [S] Sair                     ::");
         System.out.println("::                                  ::");
         System.out.println("::==================================::");
@@ -30,6 +31,8 @@ public class RebeldeApp {
                 case "s" :
                     System.exit(0);
                     break;
+                case "l" :
+                    new Relatorios().init();
                 default:
                     System.out.println("Opção inválida, tente novamente!");
             }
